@@ -1,0 +1,3 @@
+exportPattern("^ordinal|^markovSummary|^evaluateClusters|^getQuality")
+importFrom(Rcpp, evalCpp)
+useDynLib(ordinalEditDistance, .registration = TRUE)
